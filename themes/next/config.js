@@ -9,7 +9,7 @@ const CONFIG = {
   NEXT_POST_LIST_PREVIEW: true, // 显示文章预览
   NEXT_POST_LIST_SUMMARY: true, // 显示用户自定义摘要，有预览时优先只展示预览
 
-  NEXT_POST_HEADER_IMAGE_VISIBLE: true, // 文章详情页是否显示封面图
+  NEXT_POST_HEADER_IMAGE_VISIBLE: false, // 文章详情页是否显示封面图
 
   // 右侧组件
   NEXT_RIGHT_BAR: true, // 是否显示右侧栏
@@ -20,9 +20,9 @@ const CONFIG = {
 
   // 菜单
   NEXT_MENU_HOME: true, // 显示首页
-  NEXT_MENU_CATEGORY: true, // 显示分类
-  NEXT_MENU_TAG: true, // 显示标签
-  NEXT_MENU_ARCHIVE: true, // 显示归档
+  NEXT_MENU_CATEGORY: false, // 显示分类
+  NEXT_MENU_TAG: false, // 显示标签
+  NEXT_MENU_ARCHIVE: false, // 显示归档
   NEXT_MENU_SEARCH: true, // 显示搜索
 
   NEXT_WIDGET_TO_TOP: true, // 是否显示回顶
